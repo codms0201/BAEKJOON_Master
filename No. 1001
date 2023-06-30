@@ -1,0 +1,11 @@
+https://www.acmicpc.net/problem/1001
+처음에 printf를 안치고 print라고 쳐서 오류가 생겼었다.
+
+<내가 짠 코드>
+#include <stdio.h>
+int main(){
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d", a-b);
+    return 0;
+}
