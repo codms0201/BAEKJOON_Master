@@ -1,0 +1,15 @@
+https://www.acmicpc.net/submit/10869
+줄바꿈 안해줘서 1트 안에 해결 못봄
+
+<내가 짠 코드>
+#include <stdio.h>
+int main(){
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d\n", a+b);
+    printf("%d\n", a-b);
+    printf("%d\n", a*b);
+    printf("%d\n", a/b);
+    printf("%d", a%b);
+    return 0;
+}
