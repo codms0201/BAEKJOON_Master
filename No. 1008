@@ -1,0 +1,11 @@
+https://www.acmicpc.net/problem/1008
+소숫점이 나오려면 int 값을 double화 해줘야 한다. 그렇게 하지 않으면 오류가 생긴다.
+
+<내가 짠 코드>
+#include <stdio.h>
+int main(){
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%0.9lf", (double)a/b);
+    return 0;
+}
