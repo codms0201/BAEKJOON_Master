@@ -1,0 +1,12 @@
+https://www.acmicpc.net/problem/10171
+\가 print 되려면 \\을 해주어야 된다.
+
+<My code>
+#include <stdio.h>
+int main(){
+    printf("\\    /\\\n");
+    printf(" )  ( \')\n");
+    printf("(  /  )\n");
+    printf(" \\(__)|\n");
+    return 0;
+}
