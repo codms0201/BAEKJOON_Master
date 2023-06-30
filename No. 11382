@@ -1,0 +1,11 @@
+https://www.acmicpc.net/problem/11382
+10^1까지가 범위기 때문에 변수 typedmf long을 사용해야 한다.
+
+<My code>
+#include <stdio.h>
+int main(){
+    long long a, b, c;
+    scanf("%lld %lld %lld", &a, &b, &c);
+    printf("%lld", a+b+c);
+    return 0;
+}
