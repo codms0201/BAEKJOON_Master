@@ -1,0 +1,12 @@
+https://www.acmicpc.net/problem/10926
+배열의 길이를 할당하는 것을 잊지 말자
+새로 알게 된 점이지만, ??!을 그대로 print되게 하려면, c11은 트라이그래프로 착각할 수 있어서 ?\?!로 입력해 주어야 한다.
+
+<My code>
+#include <stdio.h>
+int main(){
+    char name[51];
+    scanf("%s", &name);
+    printf("%s?\?!", name);
+    return 0;
+}
