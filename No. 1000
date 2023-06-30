@@ -1,1 +1,12 @@
 https://www.acmicpc.net/problem/1000
+처음에는 c++17코드를 c코드로 착각하고 풀어서 틀리게 되었다.
+그 뒤에는 문제가 원하는데로 안하고 맘대로 풀었더니 계속 사소한 error가 떴다.
+
+<내가 짠 코드>
+#include <stdio.h>
+int main(){
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d", a+b);
+    return 0;
+}
