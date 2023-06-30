@@ -1,0 +1,14 @@
+https://www.acmicpc.net/problem/10172
+\와 마찬가지로 "가 print되려면, 앞에 \를 붙여서 작성하여야 한다.
+ex) \"
+
+<My code>
+#include <stdio.h>
+int main(){
+    printf("|\\_/|\n");
+    printf("|q p|   /}\n");
+    printf("( 0 )\"\"\"\\\n");
+    printf("|\"^\"`    |\n");
+    printf("||_/=\\\\__|\n");
+    return 0;
+}
