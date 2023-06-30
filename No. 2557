@@ -1,0 +1,12 @@
+https://www.acmicpc.net/problem/2557
+무려 4번의 시도 끝에 맞았다..
+처음에는 c++17로 언어 설정,
+그 뒤부터는 replit처럼 생각하고 
+include, main안에 집어넣지 않아서 오류를 맞았다.
+
+<내가 짠 코드>
+#include <stdio.h>
+int main(){
+  printf("Hello World!");
+  return 0;
+}
