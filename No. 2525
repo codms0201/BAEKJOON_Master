@@ -1,0 +1,16 @@
+
+생각을 더 해보도록
+
+<My code>
+#include <stdio.h>
+int main(){
+    int hour, min1, min2;
+    scanf("%d %d", &hour, &min1);
+    scanf("%d", &min2);
+    
+    int tm = (((hour*60)+min1)+min2);
+    hour = (tm/60)%24; (특히 이부분 아이디어 생각나게 끔)
+    min1 = (tm%60);
+    printf("%d %d", hour, min1);
+    return 0;
+}
